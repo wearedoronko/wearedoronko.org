@@ -28,7 +28,7 @@
 FunctionsのNodeのバージョン制約等から[Blaze](https://firebase.google.com/pricing)を利用していますが、当サイトの現状のトラフィック程度では¥0です。
 
 ## 管理の仕方
-*現状更新権限があるのは[uskay](https://github.com/uskay)のみです。
+*現状更新権限を制限しています。直接のコントリビューションはPRをお送りください。
 
 ### ハンズオン更新手順
 
