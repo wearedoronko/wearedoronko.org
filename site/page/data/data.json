@@ -1,0 +1,664 @@
+{
+  "SimpleHeroSection": {
+    "/": {
+      "slide": [
+        {
+          "src": "/res/page/img/slide_1-500w.jpg",
+          "srcset": "/res/page/img/slide_1-500w.jpg 500w, /res/page/img/slide_1-1200w.jpg 1200w",
+          "width": "1000",
+          "height": "667"
+        },
+        {
+          "src": "/res/page/img/slide_2-500w.jpg",
+          "srcset": "/res/page/img/slide_2-500w.jpg 500w, /res/page/img/slide_2-1200w.jpg 1200w",
+          "width": "1000",
+          "height": "667"
+        },
+        {
+          "src": "/res/page/img/slide_3-500w.jpg",
+          "srcset": "/res/page/img/slide_3-500w.jpg 500w, /res/page/img/slide_3-1200w.jpg 1200w",
+          "width": "1000",
+          "height": "667"
+        }
+      ],
+      "duration": 7,
+      "title": {
+        "type": "img",
+        "src": "/res/common/img/logo.svg",
+        "width": "298",
+        "height": "150"
+      }
+    },
+    "/staff": {
+      "slide": [
+        {
+          "src": "/res/page/img/stories_staff_landscape_poster-500w.jpg",
+          "srcset": "/res/page/img/stories_staff_landscape_poster-500w.jpg 500w, /res/page/img/stories_staff_landscape_poster-1200w 1200w",
+          "width": "800",
+          "height": "600"
+        }
+      ],
+      "title": {
+        "type": "text",
+        "title": "スタッフ紹介",
+        "subtitle": "どろん子のスタッフをストーリーズ形式で紹介します！"
+      }
+    },
+    "/article": {
+      "slide": [
+        {
+          "src": "/res/page/img/article_five_unique_points-500w.jpg",
+          "srcset": "/res/page/img/article_five_unique_points-500w.jpg 500w, /res/page/img/article_five_unique_points-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        }
+      ],
+      "title": {
+        "type": "text",
+        "title": "特集記事",
+        "subtitle": "どろん子に関するオリジナル記事です。"
+      }
+    },
+    "/article/five-unique-points": {
+      "slide": [
+        {
+          "src": "/res/page/img/article_five_unique_points-500w.jpg",
+          "srcset": "/res/page/img/article_five_unique_points-500w.jpg 500w, /res/page/img/article_five_unique_points-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        }
+      ],
+      "title": {
+        "type": "text",
+        "title": "どろん子の５つの特徴",
+        "subtitle": "どろん子の保育の特徴をわかりやすくまとめました。"
+      }
+    },
+    "/article/a-day-in-doronko": {
+      "slide": [
+        {
+          "src": "/res/page/img/article_a_day_in_doronko-500w.jpg",
+          "srcset": "/res/page/img/article_a_day_in_doronko-500w.jpg 500w, /res/page/img/article_a_day_in_doronko-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        }
+      ],
+      "title": {
+        "type": "text",
+        "title": "一日のスケジュール",
+        "subtitle": "登園から降園まで、どろん子の一日の流れをご紹介します。"
+      }
+    },
+    "/article/jike-furusato-mura": {
+      "slide": [
+        {
+          "src": "/res/page/img/article_jike_furusato_mura-500w.jpg",
+          "srcset": "/res/page/img/article_jike_furusato_mura-500w.jpg 500w, /res/page/img/article_jike_furusato_mura-1200w.jpg 1200w",
+          "width": "500",
+          "height": "563"
+        }
+      ],
+      "title": {
+        "type": "text",
+        "title": "寺家ふるさと村",
+        "subtitle": "子どもたちがどろん子での日々を過ごしている地域についてご紹介します。"
+      }
+    },
+    "/article/about": {
+      "slide": [
+        {
+          "src": "/res/page/img/article_about-500w.jpg",
+          "srcset": "/res/page/img/article_about-500w.jpg 500w, /res/page/img/article_about-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        }
+      ],
+      "title": {
+        "type": "text",
+        "title": "園について",
+        "subtitle": "どろん子の基本情報をまとめています。"
+      }
+    },
+    "/article/dorofes": {
+      "slide": [
+        {
+          "src": "/res/page/img/article_dorofes-500w.jpg",
+          "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        }
+      ],
+      "title": {
+        "type": "text",
+        "title": "10/17（土）どろふぇす開催！",
+        "subtitle": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。"
+      }
+    }
+  },
+  "SimpleWelcomeSection": {
+    "title": "ようこそ！",
+    "icon": {
+      "src": "/res/page/img/welcome-icon-300w.jpg",
+      "width": "300",
+      "height": "300"
+    },
+    "meta": "園長 萩原多美江",
+    "description": "横浜市青葉区、寺家ふるさと村の外れに佇む、自然保育園「どろん子」。2歳から5歳児まで約40名の園児が通う小さな保育園です。 恵まれた自然環境の中で仲間と遊びこみ、心身の健康と自己肯定感を育むどろん子の魅力をお届けします。",
+    "subtitle": "メディア掲載例",
+    "media": {
+      "items": [
+        {
+          "img": {
+            "src": "/res/page/img/media-morinooto-300w.jpg",
+            "width": "350",
+            "height": "252"
+          },
+          "description": "「自分を持つ」から始まる自己肯定感",
+          "meta": "森ノオト",
+          "href": "http://morinooto.jp/2017/08/08/doronkoinfo/"
+        },
+        {
+          "img": {
+            "src": "/res/page/img/media-yn-300w.jpg",
+            "width": "350",
+            "height": "197"
+          },
+          "description": "保活の時期！正社員ママなのにあえて“認可外”を選ぶ、無償化の今こそ自然保育どろん子さんの魅力を考える",
+          "meta": "ヤフーニュース",
+          "href": "https://news.yahoo.co.jp/byline/osakabesayaka/20191018-00146974/"
+        }
+      ]
+    }
+  },
+  "SimpleArticleSection": {
+    "title": "特集記事",
+    "articles": [
+      {
+        "img": {
+          "src": "/res/page/img/article_five_unique_points-500w.jpg",
+          "srcset": "/res/page/img/article_five_unique_points-500w.jpg 500w, /res/page/img/article_five_unique_points-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        },
+        "title": "どろん子の５つの特徴",
+        "description": "どろん子の保育の特徴をわかりやすくまとめました。...どろん子の「食」は、楽しく食べることをなにより大切にしています。毎日のように、野山や田んぼでたっぷり外遊びをしているから、給食は子どもたちにとって待ちに待った時間です。この空腹感があってこそ、食欲が高まり、さらに...",
+        "meta": "続きを読む",
+        "href": "/article/five-unique-points"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/article_a_day_in_doronko-500w.jpg",
+          "srcset": "/res/page/img/article_a_day_in_doronko-500w.jpg 500w, /res/page/img/article_a_day_in_doronko-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        },
+        "title": "一日のスケジュール",
+        "description": "登園から降園まで、どろん子の一日の流れをご紹介します。...朝の登園タイムはにぎやかな時間。友だちのもとへ駆け出す子もいれば、元気な泣き声を響かせる小さい子も。スタッフが毎日笑顔で迎え入れます。お散歩前の自由遊びも、子どもたちにとって...",
+        "meta": "続きを読む",
+        "href": "/article/a-day-in-doronko"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/article_jike_furusato_mura-500w.jpg",
+          "srcset": "/res/page/img/article_jike_furusato_mura-500w.jpg 500w, /res/page/img/article_jike_furusato_mura-1200w.jpg 1200w",
+          "width": "500",
+          "height": "563"
+        },
+        "title": "寺家ふるさと村",
+        "description": "子どもたちがどろん子での日々を過ごしている地域についてご紹介します。...どろん子のある横浜市青葉区寺家町は、東急田園都市線・青葉台駅から約3キロ。東京都町田市、川崎市麻生区と隣接している、自然豊かな里山環境が残された地域です。横浜市から「寺家ふるさと村」として保全され...",
+        "meta": "続きを読む",
+        "href": "/article/jike-furusato-mura"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/article_dorofes-500w.jpg",
+          "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
+          "width": "500",
+          "height": "563"
+        },
+        "title": "10/17（土）どろふぇす開催！",
+        "description": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。今年は人数限定の予約制で、規模を小さくして開催します。豊かな自然環境の中で過ごすどろん子の保育や、園の雰囲気を知っていただけたらと思います...",
+        "meta": "続きを読む",
+        "href": "/article/dorofes"
+      }
+    ]
+  },
+  "SimpleStaffSection": {
+    "title": "スタッフ紹介",
+    "description": "どろん子のスタッフをストーリーズ形式で紹介します！今回は真夏だったのでお外での映像はないですが、リアルなどろん子ライフの描写とみんなの「どろん子自慢」を載せました。",
+    "staff": [
+      {
+        "img": {
+          "src": "/res/page/img/staff-tami-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "たみちゃん",
+        "href": "/staff#page=tami"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-misa-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "みさ",
+        "href": "/staff#page=misa"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-tomoko-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "ともちゃん",
+        "href": "/staff#page=tomoko"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-yumiko-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "ゆみこ",
+        "href": "/staff#page=yumiko"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-shinsan-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "しんさん",
+        "href": "/staff#page=shinsan"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-keikosan-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "けいこさん",
+        "href": "/staff#page=keikosan"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-ricchan-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "りっちゃん",
+        "href": "/staff#page=ricchan"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-yumi-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "ゆみちゃん",
+        "href": "/staff#page=yumi"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-hiromi-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "ひろみ",
+        "href": "/staff#page=hiromi"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-michan-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "みーちゃん",
+        "href": "/staff#page=michan"
+      }
+    ]
+  },
+  "SimpleFooterSection": {
+    "title": "お知らせ",
+    "tel": "045-961-6682",
+    "name": "自然保育園「どろん子」",
+    "address": "神奈川県横浜市青葉区寺家町112",
+    "signature": "どろん子ホームページプロジェクト",
+    "ghTitle": "Forked from GitHub",
+    "ghlink": "https://github.com/uskay/simple-sitegen",
+    "carousel": {
+      "items": [
+        {
+          "img": {
+            "src": "/res/page/img/news/jagaimo-300w.jpg",
+            "width": "1",
+            "height": "1"
+          },
+          "description": "今日は、じゃがいも掘り！じゃがいもの葉っぱがあまり茂らず、不安に思いながらの芋掘りでしたが、思ったよりもたくさん収穫できて...",
+          "meta": "2020年07月07日",
+          "href": "https://www.facebook.com/nomugi.doronko/posts/3034664363289805"
+        },
+        {
+          "img": {
+            "src": "/res/common/img/news.svg",
+            "width": "1",
+            "height": "1"
+          },
+          "description": "卒園を祝う会。2020年3月14日「どろん子」の卒園を祝う会が行われました...",
+          "meta": "2020年03月14日",
+          "href": "https://www.facebook.com/nomugi.doronko/posts/2763670563722521"
+        },
+        {
+          "img": {
+            "src": "/res/page/img/news/osanpo-300w.jpg",
+            "width": "1",
+            "height": "1"
+          },
+          "description": "今日のおさんぽは、おうちで🍙を作ってきてもらって、おにぎりさんぽ！寺家ふるさと村の梅が満開で...",
+          "meta": "2020年02月20日",
+          "href": "https://www.facebook.com/nomugi.doronko/posts/2716031018486476"
+        },
+        {
+          "img": {
+            "src": "/res/page/img/news/mochitsuki-300w.jpg",
+            "width": "1",
+            "height": "1"
+          },
+          "description": "あけましておめでとうございます。どろん子もおかげさまで元気に新年を迎えることができました。1月11日みんなでお餅つきをしました...",
+          "meta": "2020年01月12日",
+          "href": "https://www.facebook.com/nomugi.doronko/posts/2638279852928260"
+        }
+      ]
+    }
+  },
+  "SimpleFooterSectionForArticle": {
+    "title": "関連情報",
+    "tel": "045-961-6682",
+    "name": "自然保育園「どろん子」",
+    "address": "神奈川県横浜市青葉区寺家町112",
+    "signature": "どろん子ホームページプロジェクト",
+    "ghTitle": "Forked from GitHub",
+    "ghlink": "https://github.com/uskay/simple-sitegen",
+    "carousel": {
+      "items": [
+        {
+          "img": {
+            "src": "/res/page/img/article_five_unique_points-500w.jpg",
+            "srcset": "/res/page/img/article_five_unique_points-500w.jpg 500w, /res/page/img/article_five_unique_points-1200w.jpg 1200w",
+            "width": "500",
+            "height": "334"
+          },
+          "title": "どろん子の５つの特徴",
+          "description": "どろん子の保育の特徴をわかりやすくまとめました。",
+          "meta": "続きを読む",
+          "href": "/article/five-unique-points"
+        },
+        {
+          "img": {
+            "src": "/res/page/img/article_a_day_in_doronko-500w.jpg",
+            "srcset": "/res/page/img/article_a_day_in_doronko-500w.jpg 500w, /res/page/img/article_a_day_in_doronko-1200w.jpg 1200w",
+            "width": "500",
+            "height": "334"
+          },
+          "title": "一日のスケジュール",
+          "description": "登園から降園まで、どろん子の一日の流れをご紹介します。",
+          "meta": "続きを読む",
+          "href": "/article/a-day-in-doronko"
+        },
+        {
+          "img": {
+            "src": "/res/page/img/article_jike_furusato_mura-500w.jpg",
+            "srcset": "/res/page/img/article_jike_furusato_mura-500w.jpg 500w, /res/page/img/article_jike_furusato_mura-1200w.jpg 1200w",
+            "width": "500",
+            "height": "334"
+          },
+          "title": "寺家ふるさと村",
+          "description": "子どもたちがどろん子での日々を過ごしている地域についてご紹介します。",
+          "meta": "続きを読む",
+          "href": "/article/jike-furusato-mura"
+        },
+        {
+          "img": {
+            "src": "/res/page/img/article_about-500w.jpg",
+            "srcset": "/res/page/img/article_about-500w.jpg 500w, /res/page/img/article_about-1200w.jpg 1200w",
+            "width": "500",
+            "height": "334"
+          },
+          "title": "園について",
+          "description": "どろん子の基本情報をまとめています。",
+          "meta": "続きを読む",
+          "href": "/article/about"
+        },
+        {
+          "img": {
+            "src": "/res/page/img/article_dorofes-500w.jpg",
+            "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
+            "width": "500",
+            "height": "563"
+          },
+          "title": "10/17（土）どろふぇす開催！",
+          "description": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。",
+          "meta": "続きを読む",
+          "href": "/article/dorofes"
+        }
+      ]
+    }
+  },
+  "SimpleHeaderSection": {
+    "link": {
+      "top": {
+        "text": "トップ",
+        "textMobile": "トップ",
+        "hideOnMobile": true,
+        "href": "/"
+      },
+      "about": {
+        "text": "園について",
+        "textMobile": "園について",
+        "hideOnMobile": false,
+        "href": "/article/about"
+      },
+      "media": {
+        "text": "メディア掲載例",
+        "textMobile": "メディア",
+        "hideOnMobile": false,
+        "href": "/#media"
+      },
+      "article": {
+        "text": "特集記事",
+        "textMobile": "特集記事",
+        "hideOnMobile": false,
+        "href": "/#article"
+      },
+      "staff": {
+        "text": "スタッフ紹介",
+        "textMobile": "スタッフ",
+        "hideOnMobile": false,
+        "href": "/#staff"
+      },
+      "news": {
+        "text": "お知らせ",
+        "textMobile": "お知らせ",
+        "hideOnMobile": true,
+        "href": "/#news"
+      },
+      "facebook": {
+        "text": "Facebook",
+        "textMobile": "Facebook",
+        "hideOnMobile": true,
+        "href": "https://www.facebook.com/nomugi.doronko"
+      }
+    }
+  },
+  "SimpleArticleListSection": {
+    "carousel": {
+      "items": [
+        {
+          "img": {
+            "src": "/res/page/img/article_five_unique_points-500w.jpg",
+            "srcset": "/res/page/img/article_five_unique_points-500w.jpg 500w, /res/page/img/article_five_unique_points-1200w.jpg 1200w",
+            "width": "500",
+            "height": "334"
+          },
+          "title": "どろん子の５つの特徴",
+          "description": "どろん子の保育の特徴をわかりやすくまとめました。",
+          "meta": "続きを読む",
+          "href": "/article/five-unique-points"
+        },
+        {
+          "img": {
+            "src": "/res/page/img/article_a_day_in_doronko-500w.jpg",
+            "srcset": "/res/page/img/article_a_day_in_doronko-500w.jpg 500w, /res/page/img/article_a_day_in_doronko-1200w.jpg 1200w",
+            "width": "500",
+            "height": "334"
+          },
+          "title": "一日のスケジュール",
+          "description": "登園から降園まで、どろん子の一日の流れをご紹介します。",
+          "meta": "続きを読む",
+          "href": "/article/a-day-in-doronko"
+        },
+        {
+          "img": {
+            "src": "/res/page/img/article_jike_furusato_mura-500w.jpg",
+            "srcset": "/res/page/img/article_jike_furusato_mura-500w.jpg 500w, /res/page/img/article_jike_furusato_mura-1200w.jpg 1200w",
+            "width": "500",
+            "height": "334"
+          },
+          "title": "寺家ふるさと村",
+          "description": "子どもたちがどろん子での日々を過ごしている地域についてご紹介します。",
+          "meta": "続きを読む",
+          "href": "/article/jike-furusato-mura"
+        }
+      ]
+    },
+    "articles": [
+      {
+        "img": {
+          "src": "/res/page/img/article_five_unique_points-500w.jpg",
+          "srcset": "/res/page/img/article_five_unique_points-500w.jpg 500w, /res/page/img/article_five_unique_points-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        },
+        "title": "どろん子の５つの特徴",
+        "description": "どろん子の保育の特徴をわかりやすくまとめました。...どろん子の「食」は、楽しく食べることをなにより大切にしています。毎日のように、野山や田んぼでたっぷり外遊びをしているから、給食は子どもたちにとって待ちに待った時間です。この空腹感があってこそ、食欲が高まり、さらに...",
+        "meta": "続きを読む",
+        "href": "/article/five-unique-points"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/article_a_day_in_doronko-500w.jpg",
+          "srcset": "/res/page/img/article_a_day_in_doronko-500w.jpg 500w, /res/page/img/article_a_day_in_doronko-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        },
+        "title": "一日のスケジュール",
+        "description": "登園から降園まで、どろん子の一日の流れをご紹介します。...朝の登園タイムはにぎやかな時間。友だちのもとへ駆け出す子もいれば、元気な泣き声を響かせる小さい子も。スタッフが毎日笑顔で迎え入れます。お散歩前の自由遊びも、子どもたちにとって...",
+        "meta": "続きを読む",
+        "href": "/article/a-day-in-doronko"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/article_jike_furusato_mura-500w.jpg",
+          "srcset": "/res/page/img/article_jike_furusato_mura-500w.jpg 500w, /res/page/img/article_jike_furusato_mura-1200w.jpg 1200w",
+          "width": "500",
+          "height": "563"
+        },
+        "title": "寺家ふるさと村",
+        "description": "子どもたちがどろん子での日々を過ごしている地域についてご紹介します。... どろん子のある横浜市青葉区寺家町は、東急田園都市線・青葉台駅から約3キロ。東京都町田市、川崎市麻生区と隣接している、自然豊かな里山環境が残された地域です。横浜市から「寺家ふるさと村」として保全され...",
+        "meta": "続きを読む",
+        "href": "/article/jike-furusato-mura"
+      }
+    ]
+  },
+  "SimpleSidebar": {
+    "link": {
+      "top": {
+        "text": "トップ",
+        "href": "/"
+      },
+      "about": {
+        "text": "園について",
+        "href": "/article/about"
+      },
+      "media": {
+        "text": "メディア掲載例",
+        "href": "/#media"
+      },
+      "article": {
+        "text": "特集記事",
+        "href": "/#article"
+      },
+      "staff": {
+        "text": "スタッフ紹介",
+        "href": "/#staff"
+      },
+      "news": {
+        "text": "お知らせ",
+        "href": "/#news"
+      },
+      "facebook": {
+        "text": "👍 Facebook",
+        "href": "https://www.facebook.com/nomugi.doronko/"
+      }
+    },
+    "topBanner": {
+      "a2hs": {
+        "title": "📱 ホームに追加する",
+        "description": "気になったらまずはどろん子サイトをホーム画面に追加してください。",
+        "cta": "追加する"
+      },
+      "general": {
+        "title": "入園案内・お問い合わせ",
+        "description": "ぜひお気軽にお問い合わせください。体験型の「おさんぽ会」もあります。",
+        "cta": "詳しくはこちら",
+        "href": "/article/about#入園について"
+      }
+    }
+  },
+  "SimpleBannerApplication": {
+    "isOn": true,
+    "title": "入園案内・お問い合わせ",
+    "description": "自然豊かな環境の中での保育が好きな方や興味のある方。ぜひお気軽にお問い合わせください。どろん子保育を体験できる「おさんぽ会」もあります。",
+    "button": "詳しくはこちら",
+    "href": "/article/about#入園について",
+    "backgroundColor": "#364953",
+    "fontColor": "white",
+    "exclude": [
+      "/article/about"
+    ]
+  },
+  "SimpleBannerHotTopics": {
+    "isOn": false,
+    "title": "ご案内：どろふぇす開催決定！",
+    "description": "「どろん子ふぇすた」（通称どろふぇす）は、どろん子を地域にひらく年に1回のお祭りです。今年は人数限定の予約制で、規模を小さくして開催します。豊かな自然環境の中で過ごすどろん子の保育や、園の雰囲気を知っていただけたらと思います。",
+    "button": "詳しくはこちら",
+    "href": "/article/dorofes",
+    "backgroundColor": "#efefef",
+    "fontColor": "#253239",
+    "exclude": [
+      "/article/dorofes"
+    ]
+
+  },
+  "SimpleSocialShare": {
+    "twitter": {
+      "urlTemplate": "https://twitter.com/intent/tweet?text=@@@__text__@@@&url=@@@__location__@@@",
+      "textPlaceholder": "@@@__text__@@@",
+      "urlPlaceholder": "@@@__location__@@@",
+      "img": "/res/common/img/tw.png",
+      "backgroundColor": "#1DA1F2"
+    },
+    "facebook": {
+      "urlTemplate": "https://www.facebook.com/sharer/sharer.php?display=popup&u=@@@__location__@@@&t=@@@__text__@@@",
+      "textPlaceholder": "@@@__text__@@@",
+      "urlPlaceholder": "@@@__location__@@@",
+      "img": "/res/common/img/fb.png",
+      "backgroundColor": "#395A9A"
+    },
+    "webshare": {
+      "img": "/res/common/img/webshare.png",
+      "backgroundColor": "#364953"
+    }
+  }
+}
