@@ -1,81 +1,66 @@
-# Simple Sitegen
+# wearedoronko.org
 
-🧨 Experiment building a static site generator. There should be many 🐞s.
+こちらは[wearedoronko.org](https://wearedoronko.org)（以降当サイト）のリソースを管理しているレポジトリです。
 
-## Concept
-Trying to see how can a static website can be built w/o, using any existing frameworks as much as possible.
-- Be simple and friendly integrating with other platforms e.g bots...
-- so, SSR only. No JavaScript, including Web Components, as much as possible, in the frontend to render a page...
-- while being able to build components as a "single file component" - having HTML, CSS and JavaScript (if needed) in a single file...
-- but only using pure ES6 syntax, no jsx and such...
-- with the ablity to have all scripts and styles inlined, route based chucked, treeshaked, minified...
-- and adding optimization to the images...
-- but for simplicity w/o using any bundlers...
-- to achieve great peformance by default...
-- while also being PWA ready with default ServiceWorker and having user friendly flow to install the site...
-- which can be maitaned by injecting data and writing markdowns.
+## 設計概要
+当サイトは[simple-sitegen](https://github.com/uskay/simple-sitegen)というStatic Site Generatorを利用して生成されています。またホスティング環境はFirebase HostingおよびDynamic Servingを目的としてFirebase Cloud Functionsを利用しています。
 
-ha 😉
+![architecture](https://cdn.glitch.com/98449704-33d8-49b2-88f2-aa6d2aeba5d3%2FScreen%20Shot%202021-04-02%20at%2010.40.06.png?v=1617327640616)
 
-## Site
-![sample screenshot of the site](https://cdn.glitch.com/98449704-33d8-49b2-88f2-aa6d2aeba5d3%2Ftop.png?v=1599699135771)
-- Demo: https://simple-sitegen.web.app/
+### simple-sitegenでできること
 
-## Performance
-Looking nice ⚡
+- マークダウン形式での新規記事の投稿・編集
+- 用意されているコンポーネントを組み合わせて新たなページテンプレートの作成
+- 画像の最適化（圧縮、サイズ変更等）
+- その他Webリソース（OGP画像やマニフェスト等）の自動生成
 
-![lighthouse score](https://cdn.glitch.com/98449704-33d8-49b2-88f2-aa6d2aeba5d3%2Flh.png?v=1599698926820)
+など（ただし実験的なツールであるためバグや足りない機能などあります。詳しくは[uskay](https://github.com/uskay)にお問い合わせください）
 
-## Components
-As it was not easy, with my skills, to build a library to handle the DOM model and its tree strucutres, the site uses [htm](https://github.com/developit/htm). Htm was great in the way that it works with just using the plain ES6 syntax; [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). 
+### Firebaseでやってること
 
-Most of the components are currenly placed under `/site/component/`, all extending `simple-ui.js` which has a (very rough) feature of making a single file comonent (having HTMl, CSS and JavaScript all in a single file). 
+#### Functions
+今は主にサイト軽量化・最適化を目的に、UAを判定してPolyfillを入れるか入れないかを判断しています。
 
-## Page
-The page tempates are all under `/site/page/template/`, which all extends `/site/framework/page/page.js` which has the (very rough) feature of building a raw HTML for the page: renderToString (using [preact-render-to-string](https://github.com/preactjs/preact-render-to-string)), treeshaking styles and scripts, minify, transpile and adding meta data including [structure data](https://developers.google.com/search/docs/guides/intro-structured-data).
+#### Hosting
+その他Static resourceをすべてホスティングしています。
 
-## Build
-The build processes are all under `/build/`, still very buggy, but tried to add stuff that needs to be added before geting distributed.
-- Generates non-polyfilled and polyfilled HTML (to get it work in IE11)
-- Generates Web App Manifest
-- Generates Service Worker
-- Generates the OGP images
-- Generates Site Map
-- Optimizes images
-- Prepares debug environment
+#### Price
+FunctionsのNodeのバージョン制約等から[Blaze](https://firebase.google.com/pricing)を利用していますが、当サイトの現状のトラフィック程度では¥0です。
 
-## PWA - Install flow
-Will not show the default install banner but added the install button nice and simply in the side bar.
+## 管理の仕方
 
-![install button](https://cdn.glitch.com/98449704-33d8-49b2-88f2-aa6d2aeba5d3%2Fah.png?v=1599700699662)
+### ハンズオン更新手順
 
-## Dynamic serving
-Has an option to use Firebase Cloud Functions to dynamically serve polyfilled HTML. Currently anything below the broser versions below, will add `res/common/polyfill.js`. Need to swith the `settings.json`'s `hostingOnly` property to `false` and use `firebase_prod.json` to deploy to enabable dynamic serving. There could be a better way to work this out though and depends on the API being used.
-
+1. 最新のリソースを取得
 ```
-const modern = {
-        chrome: 45,
-        firefox: 32,
-        safari: 9,
-        mobile_safari: 9,
-        edge: 12,
-      };
+git clone https://github.com/wearedoronko/wearedoronko.org.git
 ```
 
-## Data
-All the data are currently under `/site/page/data/` and markdowns are all under `/site/page/md/`.
+2. 各種リソースを更新
+- 記事の追加
+  - `/site/page/md/`配下に新たなマークダウンを追加します。
+  - `./settings.json`の`route`を追加します。マークダウンのファイル名と合致したURLが作られます。
+- 記事以外のテキストや画像を修正
+  - `/site/page/data/`以下のJsonにすべての文言や各設定があります。こちらを変更します。
+- 画像の追加
+  - `/res/*/raw/`というraw画像を配置するディレクトリがありますので、そちらに画像を配置します。ファイル名の最後に`-${width}w`というサフィックスを追加することで自動的に指定したサイズに変更されます（例：`article_dorofes_1-800w.jpg`であれば800px幅に変更）
 
-## Caveats
-Many, for example, the site has 100 in LH acceciblity but in reality it doesn't mean it's, such as alt values, are actually useful.
+3. ビルド
+```
+npm run build
+```
+- この状態で`/debug/`ディレクトリにローカルテスト向けリソースが展開されます。
+- また、`/prod/`以下は実際にFirebaseにデプロイする本番用リソースが展開されます。
 
-## Licence
-Codes are Apache 2.0 and the creatives are from [unsplash.com](https://unsplash.com). Thank you so much
-- [Jezael Melgoza](https://unsplash.com/@jezael)
-- [Ryo Yoshitake](https://unsplash.com/@yory)
-- [Benjamin Wong](https://unsplash.com/@ben_wong_31)
-- [Jean Vella](https://unsplash.com/@jean_vella)
-- [Freeman Zhou](https://unsplash.com/@freeman_zhou)
-- [Matteo Catanese](https://unsplash.com/@matteocatanese)
-- [Andre Benz](https://unsplash.com/@trapnation)
+4. デプロイ
+```
+npm run deploy-prod
+```
 
-All your photos are amazing!
+### 運用方法
+
+実際の更新依頼は以下のフォームを利用ください。１週間以内に返答します。
+
+- [wearedoronko.org更新依頼](https://forms.gle/RAxThh9UW1Shj5AJ7)
+
+TODO: Static Site Generatorという性質から現状[uskay](https://github.com/uskay)にて運用していますが、今後の運用方式は相談可。
