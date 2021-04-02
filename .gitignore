@@ -2,3 +2,4 @@ node_modules/
 debug/
 prod/
 .DS_Store
+.firebase
