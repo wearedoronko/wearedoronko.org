@@ -59,7 +59,7 @@ module.exports = class SimpleFooterSection extends SimpleUI {
         margin-top: 20px;
         width: 100%;
         text-align: center;
-        font-size: 1.1em;
+        font-size: 0.9em;
         font-weight: 700;
       }
       :host .address {
