@@ -37,11 +37,15 @@ module.exports = class SimpleCarouselFBPosts extends SimpleCarousel {
               + postId.split('_')[1];
             fetch(attacmentEndpoint).then(rawAttachments => {
               rawAttachments.json().then(attachments => {
-                let imgSrc = '';
+                /* cannot use the AND operator due to sanitization */
                 if (attachments.data[0]) {
-                  imgSrc = attachments.data[0].media.image.src;
+                  if (attachments.data[0].media) {
+                    if (attachments.data[0].media.image) {
+                      const imgSrc = attachments.data[0].media.image.src;
+                      card.querySelector('img').src = imgSrc;
+                    }
+                  }
                 }
-                card.querySelector('img').src = imgSrc;
               })
             })                  
           };
