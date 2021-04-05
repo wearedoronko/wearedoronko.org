@@ -2,7 +2,7 @@ const {h} = require('preact');
 const htm = require('htm');
 const html = htm.bind(h);
 const SimpleUI = require('../simple-ui.js');
-const SimpleCarousel = require('../simple-carousel.js');
+const SimpleCarouselFBPosts = require('../simple-carousel-fb-posts.js');
 
 module.exports = class SimpleFooterSection extends SimpleUI {
   componentName() {
@@ -96,7 +96,7 @@ module.exports = class SimpleFooterSection extends SimpleUI {
           <h2 class="dark"><span>${feed.title}</span></h2>
         </div>
         <div>
-          <${SimpleCarousel} 
+          <${SimpleCarouselFBPosts} 
             content="${JSON.stringify(feed.carousel)}"
             route="${props.route}"
           />

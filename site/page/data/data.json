@@ -331,13 +331,13 @@
       "items": [
         {
           "img": {
-            "src": "/res/page/img/news/jagaimo-300w.jpg",
+            "src": "/res/common/img/news.svg",
             "width": "1",
             "height": "1"
           },
-          "description": "今日は、じゃがいも掘り！じゃがいもの葉っぱがあまり茂らず、不安に思いながらの芋掘りでしたが、思ったよりもたくさん収穫できて...",
-          "meta": "2020年07月07日",
-          "href": "https://www.facebook.com/nomugi.doronko/posts/3034664363289805"
+          "description": "Loading...",
+          "meta": "Facebook",
+          "href": "https://www.facebook.com/nomugi.doronko"
         },
         {
           "img": {
@@ -345,29 +345,49 @@
             "width": "1",
             "height": "1"
           },
-          "description": "卒園を祝う会。2020年3月14日「どろん子」の卒園を祝う会が行われました...",
-          "meta": "2020年03月14日",
-          "href": "https://www.facebook.com/nomugi.doronko/posts/2763670563722521"
+          "description": "Loading...",
+          "meta": "Facebook",
+          "href": "https://www.facebook.com/nomugi.doronko"
         },
         {
           "img": {
-            "src": "/res/page/img/news/osanpo-300w.jpg",
+            "src": "/res/common/img/news.svg",
             "width": "1",
             "height": "1"
           },
-          "description": "今日のおさんぽは、おうちで🍙を作ってきてもらって、おにぎりさんぽ！寺家ふるさと村の梅が満開で...",
-          "meta": "2020年02月20日",
-          "href": "https://www.facebook.com/nomugi.doronko/posts/2716031018486476"
+          "description": "Loading...",
+          "meta": "Facebook",
+          "href": "https://www.facebook.com/nomugi.doronko"
         },
         {
           "img": {
-            "src": "/res/page/img/news/mochitsuki-300w.jpg",
+            "src": "/res/common/img/news.svg",
             "width": "1",
             "height": "1"
           },
-          "description": "あけましておめでとうございます。どろん子もおかげさまで元気に新年を迎えることができました。1月11日みんなでお餅つきをしました...",
-          "meta": "2020年01月12日",
-          "href": "https://www.facebook.com/nomugi.doronko/posts/2638279852928260"
+          "description": "Loading...",
+          "meta": "Facebook",
+          "href": "https://www.facebook.com/nomugi.doronko"
+        },
+        {
+          "img": {
+            "src": "/res/common/img/news.svg",
+            "width": "1",
+            "height": "1"
+          },
+          "description": "Loading...",
+          "meta": "Facebook",
+          "href": "https://www.facebook.com/nomugi.doronko"
+        },
+        {
+          "img": {
+            "src": "/res/common/img/news.svg",
+            "width": "1",
+            "height": "1"
+          },
+          "description": "詳細はどろん子Facebookページで！",
+          "meta": "もっと見る",
+          "href": "https://www.facebook.com/nomugi.doronko"
         }
       ]
     }
