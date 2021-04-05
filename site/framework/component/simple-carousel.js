@@ -47,10 +47,10 @@ module.exports = class SimpleCarousel extends SimpleUI {
         text-decoration: none;
         color: inherit;
       }
-      .SimpleCarousel::-webkit-scrollbar {
+      :host::-webkit-scrollbar {
         background: #253239;
       }    
-      .SimpleCarousel::-webkit-scrollbar-thumb {
+      :host::-webkit-scrollbar-thumb {
           background: #364953;
           border-radius: 1ex;
           box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
