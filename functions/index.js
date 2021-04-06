@@ -7,14 +7,14 @@ exports.proxy = functions.https.onRequest((req, res) => {
   const HTML_DIRECTORY = '/_html';
   let fetchURL = `${HOSTING_ORIGIN}${HTML_DIRECTORY}${req.path}`;
   const isModern = (UA) => {
-    // The versions that has Array.from.
-    // Anything other than this is legacy.
+    // The versions that has Array.from and fetch
+    // Anything older than this is legacy.
     const modern = {
-      chrome: 45,
+      chrome: 42,
       firefox: 32,
-      safari: 9,
-      mobile_safari: 9,
-      edge: 12,
+      safari: 10.1,
+      mobile_safari: 10.3,
+      edge: 14,
     };
     const browserList = useragent.is(UA);
     let isModern = false;

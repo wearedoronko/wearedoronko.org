@@ -167,6 +167,9 @@ module.exports = class SimpleCarousel extends SimpleUI {
           };
           const getJapanFormatDate = (raw) => {
             const d = new Date(raw);
+            if(isNaN(d.getFullYear())) {
+              return raw.split('T')[0];
+            }
             const formattedDateString =
               d.getFullYear()
               + '年'
@@ -177,7 +180,6 @@ module.exports = class SimpleCarousel extends SimpleUI {
             return formattedDateString;
           };
           const updateCarouselContent = (count, desc, date, postId, attacmentEndpoint) => {
-            console.log(count, desc);
             const card =
               document.querySelectorAll('.SimpleFooterSection .SimpleCarousel a')[count];
             card.querySelector('.description').innerText = getShortDesc(desc);
