@@ -26,11 +26,11 @@ module.exports = class SimpleBanner extends SimpleUI {
         clear: both;
       }
       :host .banner-title {
-        width: 100%;
+        width: 80%;
         text-align: center;
         font-size: 1.2em;
         font-weight: 700;
-        margin-top: 5px;
+        margin: 5px auto 0px auto;
       }
       :host .banner-description {
         width: 80%;
