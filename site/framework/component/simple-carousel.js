@@ -177,7 +177,6 @@ module.exports = class SimpleCarousel extends SimpleUI {
             return formattedDateString;
           };
           const updateCarouselContent = (count, desc, date, postId, attacmentEndpoint) => {
-            console.log(count, desc);
             const card =
               document.querySelectorAll('.SimpleFooterSection .SimpleCarousel a')[count];
             card.querySelector('.description').innerText = getShortDesc(desc);
