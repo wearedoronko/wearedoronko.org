@@ -118,21 +118,6 @@
         "title": "園について",
         "subtitle": "どろん子の基本情報をまとめています。"
       }
-    },
-    "/article/dorofes": {
-      "slide": [
-        {
-          "src": "/res/page/img/article_dorofes-500w.jpg",
-          "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
-          "width": "500",
-          "height": "334"
-        }
-      ],
-      "title": {
-        "type": "text",
-        "title": "6/5（土）、6/6(日）どろふぇす開催！",
-        "subtitle": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。"
-      }
     }
   },
   "SimpleWelcomeSection": {
@@ -208,18 +193,6 @@
         "description": "子どもたちがどろん子での日々を過ごしている地域についてご紹介します。...どろん子のある横浜市青葉区寺家町は、東急田園都市線・青葉台駅から約3キロ。東京都町田市、川崎市麻生区と隣接している、自然豊かな里山環境が残された地域です。横浜市から「寺家ふるさと村」として保全され...",
         "meta": "続きを読む",
         "href": "/article/jike-furusato-mura"
-      },
-      {
-        "img": {
-          "src": "/res/page/img/article_dorofes-500w.jpg",
-          "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
-          "width": "500",
-          "height": "563"
-        },
-        "title": "6/5（土）、6/6(日）どろふぇす開催！",
-        "description": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。今年は人数限定の予約制で、規模を小さくして開催します。豊かな自然環境の中で過ごすどろん子の保育や、園の雰囲気を知っていただけたらと思います...",
-        "meta": "続きを読む",
-        "href": "/article/dorofes"
       }
     ]
   },
@@ -449,18 +422,6 @@
           "description": "どろん子の基本情報をまとめています。",
           "meta": "続きを読む",
           "href": "/article/about"
-        },
-        {
-          "img": {
-            "src": "/res/page/img/article_dorofes-500w.jpg",
-            "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
-            "width": "500",
-            "height": "563"
-          },
-          "title": "6/5（土）、6/6(日）どろふぇす開催！",
-          "description": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。",
-          "meta": "続きを読む",
-          "href": "/article/dorofes"
         }
       ]
     }
@@ -649,7 +610,7 @@
     ]
   },
   "SimpleBannerHotTopics": {
-    "isOn": true,
+    "isOn": false,
     "title": "ご案内：6/5（土）、6/6(日）どろふぇす開催決定！",
     "description": "「どろん子ふぇすた」（通称どろふぇす）は、どろん子を地域にひらく年に1回のお祭りです。今年も会場の過密を避けるため、人数限定の予約制で開催します。豊かな自然環境の中で過ごすどろん子の保育や、園の雰囲気を知っていただけたらと思います。",
     "button": "詳しくはこちら",
