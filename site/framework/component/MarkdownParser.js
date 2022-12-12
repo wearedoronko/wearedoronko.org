@@ -62,6 +62,15 @@ module.exports = class MarkdownParser {
         }
         return this;
       }
+      parseH4() {
+        const regex = /^####\s(.+)/;
+        const replace = `<h4>$1</h4>`;
+        if (this.row.match(regex)) {
+          this.isBlock = true;
+          return this.createNewRow(regex, replace);
+        }
+        return this;
+      }
       parseHR() {
         const regex = /^----$/;
         const replace = `<hr>`;
@@ -74,6 +83,22 @@ module.exports = class MarkdownParser {
       parseBlockQuote() {
         const regex = /^>(.+)/;
         const replace = `<blockquote>$1</blockquote>`;
+        if (this.row.match(regex)) {
+          this.isBlock = true;
+          return this.createNewRow(regex, replace);
+        }
+        return this;
+      }
+
+      parseAside() {
+        let regex = /^@aside-start$/;
+        let replace = `<aside>`;
+        if (this.row.match(regex)) {
+          this.isBlock = true;
+          return this.createNewRow(regex, replace);
+        }
+        regex = /^@aside-end$/;
+        replace = `</aside>`;
         if (this.row.match(regex)) {
           this.isBlock = true;
           return this.createNewRow(regex, replace);
@@ -141,13 +166,15 @@ module.exports = class MarkdownParser {
 
       // Ol / Ul lists
       parseList() {
-        const regexOl = /^[00-99]\.\s(.+)$/;
+        const regexOl = /^[0-9]{1,2}\.\s(.+)$/;
         const regexUl = /^-\s(.+)$/;
         const replace = `<li>$1</li>`;
         if (this.row.match(regexOl)) {
           if (this.isOl === false) {
+            const regexNumber = /^([0-9]{1,2})\.\s.+$/;
+            const start = parseInt(this.row.match(regexNumber)[1]);
             this.isOl = true;
-            return this.createNewRow(regexOl, `<ol>${replace}`);
+            return this.createNewRow(regexOl, `<ol start=${start}>${replace}`);
           }
           return this.createNewRow(regexOl, replace);
         } else if (this.row.match(regexUl)) {
@@ -218,10 +245,12 @@ module.exports = class MarkdownParser {
       .parseH1()
       .parseH2()
       .parseH3()
+      .parseH4()
       .parseHR()
       .parseBlockQuote()
       .parseImg()
       .parseMap()
+      .parseAside()
       /** Try inline elements next **/
       .parseStrong()
       .parseLink()

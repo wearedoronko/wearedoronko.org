@@ -44,6 +44,12 @@ module.exports = class SimpleCommonCSS extends SimpleUI {
             box-shadow: inset 0 -10px 0 rgba(255, 255, 0, 0.3);
             font-weight: 700;
         }
+        aside {
+          background-color: #fff2cc;
+          padding: 20px;
+          border-radius: 5px;
+          font-size: 0.9em;
+        }
     `;
   }
   template(props) {

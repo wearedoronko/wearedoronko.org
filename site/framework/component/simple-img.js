@@ -52,6 +52,9 @@ module.exports = class SimpleImg extends SimpleUI {
         padding-top: 
         ${Math.round((props.height / props.width * 100) * 10) / 10}%;
       }
+      .SimpleArticleBodySection .content .placeholder {
+        border: 1px solid #cecccc;
+      }
     `;
   }
   template(props) {

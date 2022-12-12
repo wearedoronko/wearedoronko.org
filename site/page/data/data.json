@@ -133,6 +133,21 @@
         "title": "11/12（土）どろふぇす開催！",
         "subtitle": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。"
       }
+    },
+    "/article/furusato-tax": {
+      "slide": [
+        {
+          "src": "/res/page/img/article_furusato-tax-500w.jpg",
+          "srcset": "/res/page/img/article_furusato-tax-500w.jpg 500w, /res/page/img/article_furusato-tax-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        }
+      ],
+      "title": {
+        "type": "text",
+        "title": "よこはま夢ファンド（ふるさと納税）",
+        "subtitle": "よこはま夢ファンド（ふるさと納税）により、NPO法人どろん子会に財政的ご支援を。"
+      }
     }
   },
   "SimpleWelcomeSection": {
@@ -211,15 +226,15 @@
       },
       {
         "img": {
-          "src": "/res/page/img/article_dorofes-500w.jpg",
-          "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
+          "src": "/res/page/img/article_furusato-tax-500w.jpg",
+          "srcset": "/res/page/img/article_furusato-tax-500w.jpg 500w, /res/page/img/article_furusato-tax-1200w.jpg 1200w",
           "width": "500",
           "height": "563"
         },
-        "title": "11/12（土）どろふぇす開催！",
-        "description": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。今年は人数限定の予約制で、規模を小さくして開催します。豊かな自然環境の中で過ごすどろん子の保育や、園の雰囲気を知っていただけたらと思います...",
+        "title": "よこはま夢ファンド（ふるさと納税）",
+        "description": "よこはま夢ファンド（ふるさと納税）により、NPO法人どろん子会に財政的ご支援を...この度、NPO法人どろん子会は、よこはま夢ファンド（ふるさと納税）を活用した助成金の対象団体として、横浜市に登録をいたしました...",
         "meta": "続きを読む",
-        "href": "/article/dorofes"
+        "href": "/article/furusato-tax"
       }
     ]
   },
@@ -458,6 +473,18 @@
       "items": [
         {
           "img": {
+            "src": "/res/page/img/article_furusato-tax-500w.jpg",
+            "srcset": "/res/page/img/article_furusato-tax-500w.jpg 500w, /res/page/img/article_furusato-tax-1200w.jpg 1200w",
+            "width": "500",
+            "height": "563"
+          },
+          "title": "よこはま夢ファンド（ふるさと納税）",
+          "description": "よこはま夢ファンド（ふるさと納税）により、NPO法人どろん子会に財政的ご支援を。",
+          "meta": "続きを読む",
+          "href": "/article/furusato-tax"
+        },
+        {
+          "img": {
             "src": "/res/page/img/article_five_unique_points-500w.jpg",
             "srcset": "/res/page/img/article_five_unique_points-500w.jpg 500w, /res/page/img/article_five_unique_points-1200w.jpg 1200w",
             "width": "500",
@@ -503,18 +530,6 @@
           "description": "どろん子の基本情報をまとめています。",
           "meta": "続きを読む",
           "href": "/article/about"
-        },
-        {
-          "img": {
-            "src": "/res/page/img/article_dorofes-500w.jpg",
-            "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
-            "width": "500",
-            "height": "563"
-          },
-          "title": "11/12（土）どろふぇす開催！",
-          "description": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。",
-          "meta": "続きを読む",
-          "href": "/article/dorofes"
         }
       ]
     }
@@ -534,7 +549,7 @@
         "href": "/article/about"
       },
       "media": {
-        "text": "メディア掲載例",
+        "text": "メディア",
         "textMobile": "メディア",
         "hideOnMobile": false,
         "href": "/#media"
@@ -546,10 +561,16 @@
         "href": "/#article"
       },
       "staff": {
-        "text": "スタッフ紹介",
+        "text": "スタッフ",
         "textMobile": "スタッフ",
-        "hideOnMobile": false,
+        "hideOnMobile": true,
         "href": "/#staff"
+      },
+      "donate": {
+        "text": "寄付する",
+        "textMobile": "寄付する",
+        "hideOnMobile": false,
+        "href": "/article/furusato-tax"
       },
       "news": {
         "text": "お知らせ",
@@ -673,6 +694,10 @@
         "text": "スタッフ紹介",
         "href": "/#staff"
       },
+      "donate": {
+        "text": "寄付する",
+        "href": "/article/furusato-tax"
+      },
       "news": {
         "text": "お知らせ",
         "href": "/#news"
@@ -714,14 +739,14 @@
   },
   "SimpleBannerHotTopics": {
     "isOn": true,
-    "title": "ご案内：11/12（土）どろふぇす開催決定！",
-    "description": "「どろん子ふぇすた」（通称どろふぇす）は、どろん子を地域にひらく年に1回のお祭りです。今年も会場の過密を避けるため、人数限定の予約制で開催します。豊かな自然環境の中で過ごすどろん子の保育や、園の雰囲気を知っていただけたらと思います。",
+    "title": "ご案内：よこはま夢ファンド（ふるさと納税）",
+    "description": "この度、NPO法人どろん子会は、よこはま夢ファンド（ふるさと納税）を活用した助成金の対象団体として、横浜市に登録をいたしました。認可外保育施設として創設30年余りの実績で、子どもたちにより良い保育と地域の子育て支援を担ってまいりました。ぜひ、皆様方のご寄付で、NPO法人どろん子会をご支援ください。どうぞよろしくお願いいたします。",
     "button": "詳しくはこちら",
-    "href": "/article/dorofes",
+    "href": "/article/furusato-tax",
     "backgroundColor": "#efefef",
     "fontColor": "#253239",
     "exclude": [
-      "/article/dorofes"
+      "/article/furusato-tax"
     ]
 
   },
