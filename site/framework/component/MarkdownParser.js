@@ -145,6 +145,19 @@ module.exports = class MarkdownParser {
         return this;
       }
 
+      parseSlide() {
+        const regex = /^!\[.+\]\((.+)\)$/;
+        const result = this.row.match(regex);
+        let replaceSlide = '';
+        if (result && result[1] && result[1]
+          .includes('https://docs.google.com/presentation/d/e')) {
+          const url = result[1];
+          replaceSlide = render(html`<iframe src="${url}" frameborder="0" width="100%" height="auto" style="aspect-ratio: 5/3" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>`);                                   
+          return this.createNewRow(regex, replaceSlide);
+        }
+        return this;
+      }
+
       // inline elements
       parseStrong() {
         return this.createNewRow(/\*\*(.+?)\*\*/g, `<b>$1</b>`);
@@ -250,6 +263,7 @@ module.exports = class MarkdownParser {
       .parseBlockQuote()
       .parseImg()
       .parseMap()
+      .parseSlide()
       .parseAside()
       /** Try inline elements next **/
       .parseStrong()
