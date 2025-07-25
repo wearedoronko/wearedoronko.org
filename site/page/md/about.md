@@ -4,6 +4,7 @@
 | 運営形態  | 横浜市届出済認可外保育施設 |
 | 所在地 | 〒227-0031 神奈川県横浜市青葉区寺家町112 |
 | TEL | 045-961-6682 |
+| メールアドレス | doronko112@gmail.com |
 
 
 ![maps](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1622.6690180093087!2d139.5086058060301!3d35.5700475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f9b6bb74eef7%3A0x8f44f30cf8d60b05!2z6Ieq54S25L-d6IKy5ZyS44Gp44KN44KT5a2Q!5e0!3m2!1sen!2sjp!4v1729518389900!5m2!1sen!2sjp)
@@ -38,4 +39,6 @@
 
 | 日時 | 毎月第2、第4木曜日　9：00集合〜11：30帰園 |
 | 参加費 | 500円（保険料含む） ＊給食費500円（給食の有無は申し込み時にご確認ください） |
-| 参加方法 | 予約制のため、お電話にてお申し込みください。TEL：045-961-6682（平日13〜17時）|
+| 参加方法 | 予約制のため、 [フォーム](https://docs.google.com/forms/d/1xoJAd0SikRDbdaKmOQmVzuNaosIHwiQ1ilJk6_7iXuc/edit) またはお電話にてお申し込みください。TEL：045-961-6682（平日13〜17時）|
+
+![おさんぽ会のチラシ表](/res/page/img/article/article_about_osanpokai-800w.jpg 800x1132)

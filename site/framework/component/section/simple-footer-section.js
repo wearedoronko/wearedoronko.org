@@ -55,6 +55,13 @@ module.exports = class SimpleFooterSection extends SimpleUI {
         font-size: 1.8em;
         font-weight: 700;
       }
+      :host .email {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        font-size: 0.9em;
+        font-weight: 700;
+      }
       :host .name {
         margin-top: 20px;
         width: 100%;
@@ -105,6 +112,9 @@ module.exports = class SimpleFooterSection extends SimpleUI {
         <div>
           <div class="tel"><a href="tel:${feed.tel}">
             📞 ${feed.tel}
+          </a></div>
+          <div class="email"><a href="mailto:${feed.email}">
+            📧 ${feed.email}
           </a></div>
           <div class="name">${feed.name}</div>
           <div class="address">${feed.address}</div>

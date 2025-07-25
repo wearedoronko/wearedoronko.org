@@ -119,21 +119,6 @@
         "subtitle": "どろん子の基本情報をまとめています。"
       }
     },
-    "/article/dorofes": {
-      "slide": [
-        {
-          "src": "/res/page/img/article_dorofes-500w.jpg",
-          "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
-          "width": "500",
-          "height": "334"
-        }
-      ],
-      "title": {
-        "type": "text",
-        "title": "11/9（土）どろふぇす開催！",
-        "subtitle": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。"
-      }
-    },
     "/article/furusato-tax": {
       "slide": [
         {
@@ -168,11 +153,11 @@
   "SimpleWelcomeSection": {
     "title": "ようこそ！",
     "icon": {
-      "src": "/res/page/img/welcome-icon-300w.jpg",
+      "src": "/res/page/img/staff-tomoko-300w.jpg",
       "width": "300",
       "height": "300"
     },
-    "meta": "園長 萩原多美江",
+    "meta": "園長 奥村智子",
     "description": "横浜市青葉区、寺家ふるさと村の外れに佇む、NPO法人どろん子会 自然保育園どろん子。2歳から5歳児まで約40名の園児が通う小さな保育園です。 恵まれた自然環境の中で仲間と遊びこみ、心身の健康と自己肯定感を育むどろん子の魅力をお届けします。",
     "subtitle": "メディア掲載例",
     "media": {
@@ -203,18 +188,6 @@
   "SimpleArticleSection": {
     "title": "特集記事",
     "articles": [
-      {
-        "img": {
-          "src": "/res/page/img/article_dorofes-500w.jpg",
-          "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
-          "width": "500",
-          "height": "334"
-        },
-        "title": "11/9（土）どろふぇす開催！",
-        "description": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。豊かな自然環境の中で過ごすどろん子の保育や、園の雰囲気を知っていただけたらと思います...",
-        "meta": "続きを読む",
-        "href": "/article/dorofes"
-      },
       {
         "img": {
           "src": "/res/page/img/article_five_unique_points-500w.jpg",
@@ -271,30 +244,12 @@
     "staff": [
       {
         "img": {
-          "src": "/res/page/img/staff-tami-300w.jpg",
-          "width": "200",
-          "height": "200"
-        },
-        "name": "たみちゃん",
-        "href": "/staff#page=tami"
-      },
-      {
-        "img": {
           "src": "/res/page/img/staff-tomoko-300w.jpg",
           "width": "200",
           "height": "200"
         },
         "name": "ともちゃん",
         "href": "/staff#page=tomoko"
-      },
-      {
-        "img": {
-          "src": "/res/page/img/staff-yumi-300w.jpg",
-          "width": "200",
-          "height": "200"
-        },
-        "name": "ゆみちゃん",
-        "href": "/staff#page=yumi"
       },
       {
         "img": {
@@ -307,12 +262,75 @@
       },
       {
         "img": {
-          "src": "/res/page/img/staff-shinsan-300w.jpg",
+          "src": "/res/page/img/staff-yuchan-300w.jpg",
           "width": "200",
           "height": "200"
         },
-        "name": "しんさん",
-        "href": "/staff#page=shinsan"
+        "name": "ゆーちゃん",
+        "href": "/staff"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-tami-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "たみちゃん",
+        "href": "/staff#page=tami"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-hiromi-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "ひろみ",
+        "href": "/staff#page=hiromi"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-michan-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "みーちゃん",
+        "href": "/staff#page=michan"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-mayu-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "まゆちゃん",
+        "href": "/staff#page=mayu"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-naomi-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "なおみちゃん",
+        "href": "/staff#page=naomi"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-miwa-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "みわちゃん",
+        "href": "/staff"
+      },
+      {
+        "img": {
+          "src": "/res/page/img/staff-nori-300w.jpg",
+          "width": "200",
+          "height": "200"
+        },
+        "name": "のりちゃん",
+        "href": "/staff"
       },
       {
         "img": {
@@ -352,57 +370,12 @@
       },
       {
         "img": {
-          "src": "/res/page/img/staff-hiromi-300w.jpg",
+          "src": "/res/page/img/staff-kei-300w.jpg",
           "width": "200",
           "height": "200"
         },
-        "name": "ひろみ",
-        "href": "/staff#page=hiromi"
-      },
-      {
-        "img": {
-          "src": "/res/page/img/staff-michan-300w.jpg",
-          "width": "200",
-          "height": "200"
-        },
-        "name": "みーちゃん",
-        "href": "/staff#page=michan"
-      },
-      {
-        "img": {
-          "src": "/res/page/img/staff-pero-300w.jpg",
-          "width": "200",
-          "height": "200"
-        },
-        "name": "ぺろちん",
-        "href": "/staff#page=pero"
-      },
-      {
-        "img": {
-          "src": "/res/page/img/staff-mayu-300w.jpg",
-          "width": "200",
-          "height": "200"
-        },
-        "name": "まゆちゃん",
-        "href": "/staff#page=mayu"
-      },
-      {
-        "img": {
-          "src": "/res/page/img/staff-ume-300w.jpg",
-          "width": "200",
-          "height": "200"
-        },
-        "name": "うめちゃん",
-        "href": "/staff#page=ume"
-      },
-      {
-        "img": {
-          "src": "/res/page/img/staff-naomi-300w.jpg",
-          "width": "200",
-          "height": "200"
-        },
-        "name": "なおみちゃん",
-        "href": "/staff#page=naomi"
+        "name": "けいちゃん",
+        "href": "/staff#page=keichan"
       },
       {
         "img": {
@@ -410,7 +383,7 @@
           "width": "200",
           "height": "200"
         },
-        "name": "後藤先生",
+        "name": "嘱託医・後藤医師",
         "href": "/staff#page=gotosensei"
       }
     ]
@@ -418,6 +391,7 @@
   "SimpleFooterSection": {
     "title": "お知らせ",
     "tel": "045-961-6682",
+    "email": "doronko112@gmail.com",
     "name": "NPO法人どろん子会 自然保育園どろん子",
     "address": "神奈川県横浜市青葉区寺家町112",
     "signature": "どろん子ホームページプロジェクト",
@@ -491,6 +465,7 @@
   "SimpleFooterSectionForArticle": {
     "title": "関連情報",
     "tel": "045-961-6682",
+    "email": "doronko112@gmail.com",
     "name": "NPO法人どろん子会 自然保育園どろん子",
     "address": "神奈川県横浜市青葉区寺家町112",
     "signature": "どろん子ホームページプロジェクト",
@@ -498,18 +473,6 @@
     "ghlink": "https://github.com/uskay/simple-sitegen",
     "carousel": {
       "items": [
-        {
-          "img": {
-            "src": "/res/page/img/article_dorofes-500w.jpg",
-            "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
-            "width": "500",
-            "height": "563"
-          },
-          "title": "11/9（土）どろふぇす開催！",
-          "description": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。",
-          "meta": "続きを読む",
-          "href": "/article/dorofes"
-        },
         {
           "img": {
             "src": "/res/page/img/article_donate-500w.jpg",

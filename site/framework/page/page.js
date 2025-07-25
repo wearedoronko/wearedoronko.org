@@ -24,7 +24,11 @@ module.exports = class Page {
         const dangerouslysetinnerhtml = escapedHTML
           .replace(/&lt;/g, '<')
           .replace(/&gt;/g, '>')
-          .replace(/&quot;/g, '"');
+          .replace(/&quot;/g, '"')
+          // Inside table
+          .replace(/&amp;lt;/g, '<')
+          .replace(/&amp;gt;/g, '>')
+          .replace(/&amp;quot;/g, '"');
         html = html
           .replace(/\<dangerouslysetinnerhtml>.*?<\/dangerouslysetinnerhtml>/,
             dangerouslysetinnerhtml);
