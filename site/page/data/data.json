@@ -119,6 +119,21 @@
         "subtitle": "どろん子の基本情報をまとめています。"
       }
     },
+    "/article/dorofes": {
+      "slide": [
+        {
+          "src": "/res/page/img/article_dorofes-500w.jpg",
+          "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        }
+      ],
+      "title": {
+        "type": "text",
+        "title": "11/8（土）どろふぇす開催！",
+        "subtitle": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。"
+      }
+    },
     "/article/furusato-tax": {
       "slide": [
         {
@@ -188,6 +203,18 @@
   "SimpleArticleSection": {
     "title": "特集記事",
     "articles": [
+      {
+        "img": {
+          "src": "/res/page/img/article_dorofes-500w.jpg",
+          "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
+          "width": "500",
+          "height": "334"
+        },
+        "title": "11/8（土）どろふぇす開催！",
+        "description": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。豊かな自然環境の中で過ごすどろん子の保育や、園の雰囲気を知っていただけたらと思います...",
+        "meta": "続きを読む",
+        "href": "/article/dorofes"
+      },
       {
         "img": {
           "src": "/res/page/img/article_five_unique_points-500w.jpg",
@@ -401,6 +428,18 @@
       "items": [
         {
           "img": {
+            "src": "/res/page/img/article_dorofes-500w.jpg",
+            "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
+            "width": "500",
+            "height": "563"
+          },
+          "title": "11/8（土）どろふぇす開催！",
+          "description": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。",
+          "meta": "続きを読む",
+          "href": "/article/dorofes"
+        },
+        {
+          "img": {
             "src": "/res/common/img/news.svg",
             "width": "1",
             "height": "1"
@@ -473,6 +512,18 @@
     "ghlink": "https://github.com/uskay/simple-sitegen",
     "carousel": {
       "items": [
+        {
+          "img": {
+            "src": "/res/page/img/article_dorofes-500w.jpg",
+            "srcset": "/res/page/img/article_dorofes-500w.jpg 500w, /res/page/img/article_dorofes-1200w.jpg 1200w",
+            "width": "500",
+            "height": "563"
+          },
+          "title": "11/8（土）どろふぇす開催！",
+          "description": "「どろん子ふぇすた」（通称どろふぇす）は、「どろん子」を地域にひらく年に1回のお祭りです。",
+          "meta": "続きを読む",
+          "href": "/article/dorofes"
+        },
         {
           "img": {
             "src": "/res/page/img/article_donate-500w.jpg",
