@@ -165,6 +165,9 @@ module.exports = class MarkdownParser {
       parseEmphasis() {
         return this.createNewRow(/\*(.+?)\*/g, `<em>$1</em>`);
       }
+      parseItalic() {
+        return this.createNewRow(/_(.+?)_/g, `<i>$1</i>`);
+      }
       parseLink() {
         return this.createNewRow(/\[(.+?)\]\((https?:\/\/.+?)\)/g,
           `<a href="$2" target="_blank">$1</a>`);
@@ -269,6 +272,7 @@ module.exports = class MarkdownParser {
       .parseStrong()
       .parseLink()
       .parseEmphasis()
+      .parseItalic()
       .parseCode()
       .parseLineThrough()
       /** Lastly, parse Ol Ul lists **/
